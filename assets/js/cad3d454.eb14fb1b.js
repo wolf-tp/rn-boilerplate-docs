@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrn_boilerplate_docs=self.webpackChunkrn_boilerplate_docs||[]).push([[224],{7422:e=>{e.exports=JSON.parse('{"permalink":"/rn-boilerplate/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
