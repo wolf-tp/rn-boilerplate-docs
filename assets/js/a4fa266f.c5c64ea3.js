@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrn_boilerplate_docs=self.webpackChunkrn_boilerplate_docs||[]).push([[8888],{8217:l=>{l.exports=JSON.parse('{"label":"hola","permalink":"/rn-boilerplate/blog/tags/hola","allTagsPath":"/rn-boilerplate/blog/tags","count":1}')}}]);
