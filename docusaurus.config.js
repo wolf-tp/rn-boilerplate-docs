@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'React Native Boilerplate',
   tagline: 'Dinosaurs are cool',
   url: 'https://wolf-tp.github.io',
   baseUrl: '/rn-boilerplate-docs',
@@ -57,23 +57,28 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'React Native Boilerplate',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'React Native Boilerplate Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            type: "doc",
+            docId: "intro",
+            position: "right",
+            label: "Docs",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: "/blog",
+            position: "right",
+            label: "Blogs",
+          },
+          {
+            href: "https://github.com/wolf-tp/ReactNativeBoilerplate",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
